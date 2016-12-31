@@ -111,6 +111,10 @@ def gui(employees):
     root.mainloop()
 
 gui(list_employees)
+
+"""
+-------------WITHOUT GUI-------------------
+
 key = 'k' #input("Press any key: ")
 
 
@@ -127,3 +131,4 @@ while key != 'k' and key != 'K':
         print_all(list_employees)
 
     key = input("Press any key: ")
+"""
